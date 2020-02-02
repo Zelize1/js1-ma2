@@ -50,7 +50,7 @@ for(let i = 0; i < buttonAttribute.length; i++) {
 const lists = document.querySelectorAll("li");
 
 for(let i = 0; i < lists.length; i++) {
-    lists[i].addEventListener("mouseover", lists)
+    lists[i].addEventListener("mouseover", lists);
 }
 
 console.dir(lists);
